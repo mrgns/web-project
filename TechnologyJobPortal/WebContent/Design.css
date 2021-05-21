@@ -1,0 +1,76 @@
+body {
+    background-image:url('Images/job3.png') ;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+header{
+	position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.list{
+	background-color:grey;
+	margin-top: 20px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 22px;
+	padding:5px;
+	text-shadow: 1px 1px 1px seashell;
+}
+
+.profileimage{
+	height:100px;
+	width:100px;
+	background-color:white;
+	background-image: url('Images/Profile.png');
+}
+#loginIn{
+	height:400px;
+	width:400px;
+}
+
+#jobsportal
+{
+	height:400px;
+	width:600px;
+	border:1px inset black;
+}
+footer{ color:grey; margin-top:5%;}
+
+#jobsportal
+{
+	height:200px;
+	width:600px;
+	border:2px outset black;
+	margin:5px;
+}
+
+.returnTag{border:2px inset black; background-color:lightgreen; border-radius:5px; height:30px; width:100px; text-align:center;}
+
